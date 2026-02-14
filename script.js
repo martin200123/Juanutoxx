@@ -54,7 +54,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
       yesButton.style.fontSize = `${fontSize}px`;
   
       //no button text
-      const messages = ["No","Are you sure?","Babyy please?","Don't do this to me :(","Say yes or else...",];
+      const messages = ["No","¿Estas segura?","por favor nena","No me hagas esto","Ya tienes a otro? :c",];
   
       if (noClickCount === 4) {
         const newButton = document.createElement("button");
@@ -91,15 +91,15 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     //yes page
     valentineQuestion.innerHTML = `
       <img src="./images/image7.gif" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
-      Congratulations!!<br>
-      <span style="font-size: 20px; color: #bd1e59;">You have scored a baddie for Valentine's Day! <3</span>
+      Gracias amor mio<br>
+      <span style="font-size: 20px; color: #bd1e59;">y felicitaciones por tu primer san valentin!!! <3</span>
     `;
     valentineQuestion.style.textAlign = "center"; 
   
     //make image go boing
     const bounceImage = document.createElement("img");
-    bounceImage.src = "./images/baddie.jpg";
-    bounceImage.alt = "Baddie";
+    bounceImage.src = "./images/nosotros.jpg";
+    bounceImage.alt = "Nosotros <3";
     bounceImage.style.position = "absolute";
     bounceImage.style.width = "300px";
     bounceImage.style.height = "325px";

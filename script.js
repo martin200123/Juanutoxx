@@ -59,7 +59,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
       if (noClickCount === 4) {
         const newButton = document.createElement("button");
         newButton.id = "runawayButton";
-        newButton.textContent = "Say yes or else...";
+        newButton.textContent = "ya no me amas?";
         newButton.style.position = "absolute";
         const yesButtonRect = yesButton.getBoundingClientRect();
         newButton.style.top = `${yesButtonRect.bottom + 10}px`;
@@ -155,4 +155,5 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     move();
   }
   
+
 
